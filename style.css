@@ -14,3 +14,45 @@
 .logo{
     width: 20%;
 }
+
+.menu1{
+    font-size: 18px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.itens1{
+    
+}
+
+.cab-promocao{
+    background-color: #F8BE00;
+    color: white;
+}
+
+.promocao{
+    width: 100%;
+    position: relative;
+    left: 0px;
+}
+
+.acessorios{
+    width: 18%;
+}
+
+.beleza{
+    width: 18%;
+}
+
+.casa{
+    width: 18%;
+}
+
+.cozinha{
+    width: 18%;
+}
+
+.eletronico{
+    width: 18%;
+}
+
