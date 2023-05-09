@@ -1,33 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ body{
+        font-family:’Poppins’,sans-serif;
+     }
+
 .cab-frete{
 
     background-color: #F8BE00;
     color: white;
-    font-size: 10px
-
+    font-size: 7px
 }
 
 .cab-logo{
     background-color: #F8BE00;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
 }
 
 .logo{
     width: 20%;
 }
 
-.menu1{
-    font-size: 18px;
-    display: flex;
-    margin-right: 10px;
+.itens1{
+   display: inline-block;
+   margin: 0 16px;
+   padding: 24px 0;
+   font-size: 16px;
+
 }
 
-.itens1{
-    
-}
 
 .cab-promocao{
     background-color: #F8BE00;
     color: white;
+    justify-content: space-around
 }
 
 .promocao{
@@ -36,23 +47,62 @@
     left: 0px;
 }
 
+.categorias{
+
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
+    text-align: center;
+
+}
+
 .acessorios{
-    width: 18%;
+    width: 90%;
+
+    
+
 }
 
 .beleza{
-    width: 18%;
+    width: 90%;
+    
+    
 }
 
 .casa{
-    width: 18%;
+    width: 90%;
+    
+    
 }
 
 .cozinha{
-    width: 18%;
+    width: 90%;
+   
 }
 
 .eletronico{
-    width: 18%;
+    width: 90%;
 }
 
+.maisvendidos{
+    margin: 20px 5px;
+}
+
+.bannerfim{
+    width: 100%;
+    position: relative;
+    left: 0px;
+}
+
+.rodape{
+    background-color: #F8BE00;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 24px;
+    
+}
+
+.titulomenu{
+    font-size: 20px
+}
